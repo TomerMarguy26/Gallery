@@ -1,0 +1,47 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.app-root {
+  text-align: center;
+}
+
+.app-header {
+  background-image: url("https://legal.thomsonreuters.com/content/dam/ewp-m/images/legal/en/photography/photography/hero-medium-panoramic.png.transform/hero-m/q90/image.png");
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  padding: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 30pt;
+  font-family: Georgia
+}
+
+.app-input {
+  line-height: 55px;
+  border: 1px solid rgb(209, 0, 0);
+  border-radius: 6px;
+  font-size: 29px;
+  padding: 0 8px;
+  color: rgb(255, 0, 0);
+  width: 400px;
+  margin-bottom: 30px;
+  transform: translateY(+100%);
+}
+
+.image-icon_app {
+  font-size: 48px;
+  vertical-align: middle;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px;
+  margin: 3px;
+  transform: translateY(+77%);
+
+  &:hover {
+    color: rgb(255, 0, 0);
+    border-color: rgb(243, 3, 3);
+  }
+}
